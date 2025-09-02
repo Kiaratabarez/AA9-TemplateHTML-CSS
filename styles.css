@@ -66,55 +66,55 @@ main {
     gap: 40px;
 }
 
-.featured {
+.destacados {
     flex: 3;
 }
 
-.featured-articles {
+.articulos-destacados {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-.featured-articles article {
+.articulos-destacados article {
     flex: 1;
     background: #f5f5f5;
     padding: 5px;
     text-align: center;
 }
 
-.featured-articles img {
+.articulos-destacados img {
     width: 100%;
     height: 60px;
     object-fit: cover;
 }
 
-.main-feature {
+.main-articulo {
     position: relative;
     margin-bottom: 30px;
 }
 
-.main-feature img {
+.main-articulo img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
-.main-feature-content {
-    position: absolute;
+.main-articulo-contenido {
+    position: static;
     bottom: 20px;
     left: 20px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(201, 196, 196, 0.8);
     padding: 20px;
     max-width: 60%;
 }
 
-.main-feature-content .category {
+.main-articulo-contenido .category {
     font-size: 0.8em;
-    color: #888;
+    color: #c9bfbf;
 }
 
-.main-feature-content h2 {
+.main-articulo-contenido h2 {
     margin: 10px 0;
     font-size: 1.5em;
 }
@@ -128,20 +128,20 @@ main {
     margin-top: 40px;
 }
 
-.recent-posts h2 {
+.publicacione-recientes h2 {
     text-align: center;
     font-size: 1.3em;
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
 
-.posts-list {
+.lista-publicaciones {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.posts-list article {
+.lista-publicaciones article {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -149,7 +149,7 @@ main {
     padding-bottom: 10px;
 }
 
-.posts-list img {
+.lista-publicaciones img {
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -162,37 +162,37 @@ aside {
     gap: 30px;
 }
 
-.popular-articles ol {
+.artículos-populares ol {
     padding-left: 20px;
 }
 
-.popular-articles li {
+.artículos-populares li {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
 }
 
-.popular-articles img {
+.artículos-populares img {
     width: 50px;
     height: 50px;
     object-fit: cover;
 }
 
-.trending img {
+.tendencia img {
     width: 100%;
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
 }
 
-.tags-list {
+.lista-etiquetas {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-.tags-list span {
+.lista-etiquetas span {
     background: #eee;
     padding: 3px 8px;
     border-radius: 3px;
@@ -206,23 +206,23 @@ footer {
     background: #fafafa;
 }
 
-.footer-content {
+pie-pagina-content {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.footer-content div {
+pie-pagina-content div {
     flex: 1;
 }
 
-.instagram-photos {
+.instagram {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
 }
 
-.instagram-photos img {
+.instagram img {
     width: 40px;
     height: 40px;
     object-fit: cover;
