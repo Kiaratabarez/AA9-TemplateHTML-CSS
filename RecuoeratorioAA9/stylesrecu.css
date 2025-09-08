@@ -1,4 +1,4 @@
-/* ====== BASE ====== */
+
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
 --dark:#2c2c2c;
@@ -17,8 +17,7 @@ background: var(--bg);
 line-height:1.6;
 }
 .container{width:92%;max-width:1100px;margin:0 auto}
-
-/* ====== TOP BAR ====== */
+/*barra sup*/
 .topbar{background:var(--dark); border-top:5px solid var(--lime)}
 .topbar__inner{display:flex; align-items:center; justify-content:space-between; padding:22px 0}
 
@@ -84,7 +83,7 @@ width:72px; height:72px; object-fit:cover; border:4px solid #eee; background:#fa
 .news__title{
 color:#333; font-weight:bold; text-decoration:none; display:inline-block; margin-bottom:6px
 }
-
+/* pie pág */
 .sitefooter{background:#333; color:#ddd; margin-top:34px; border-top:5px solid var(--lime)}
 .footgrid{
 display:grid; grid-template-columns: repeat(5, 1fr);
