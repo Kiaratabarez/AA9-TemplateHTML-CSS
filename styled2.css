@@ -104,6 +104,25 @@ main {
     color: #555;
 }
 
+/*.articulos-destacados {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.articulos-destacados article {
+    flex: 1;
+    background: #f5f5f5;
+    padding: 5px;
+    text-align: center;
+}
+
+.articulos-destacados img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}*/
+
 .main-articulo {
     position: center;
     margin-bottom: 30px;
@@ -115,6 +134,26 @@ main {
     object-fit: cover;
     margin: 0 auto;
 }
+/*
+.main-articulo-contenido {
+    position: static;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(201, 196, 196, 0.8);
+    padding: 20px;
+    max-width: 60%;
+}
+
+.main-articulo-contenido .category {
+    font-size: 0.8em;
+    color: #c9bfbf;
+}
+
+.main-articulo-contenido h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+*/
 .author {
     font-size: 0.8em;
     color: #555;
@@ -201,6 +240,23 @@ aside {
     margin: 0;
 }
 
+/*.artículos-populares ol {
+    padding-left: 20px;
+}
+
+.artículos-populares li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.artículos-populares img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}*/
+/* Trending */
 .trending {
     margin-top: 20px;
 }
@@ -229,6 +285,7 @@ aside {
     color: #222;
 }
 
+/* Lista pequeña debajo */
 .trending-list {
     list-style: none;
     margin: 0;
@@ -263,6 +320,20 @@ aside {
     margin: 0;
 }
 
+/*
+.tendencia img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.lista-etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}*/
+
 .lista-etiquetas span {
     background: #eee;
     padding: 3px 8px;
@@ -276,6 +347,35 @@ footer {
     padding: 20px 10%;
     background: #fafafa;
 }
+/*
+.pie-pagina-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.pie-pagina-content div {
+    flex: 1;
+}
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.instagram img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 20px;
+}*/
 /* Footer */
 .pie-pagina-content {
     display: flex;
@@ -283,9 +383,12 @@ footer {
     gap: 40px;
     margin-bottom: 30px;
 }
+
 .pie-pagina-content div {
     flex: 1;
 }
+
+/* Títulos de cada columna */
 .pie-pagina-content h4 {
     margin-bottom: 15px;
     border-bottom: 1px solid #ddd;
@@ -295,6 +398,8 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+/* Listas sin viñetas */
 .pie-pagina-content ol,
 .pie-pagina-content ul {
     list-style: none;
@@ -303,15 +408,19 @@ footer {
     font-size: 0.9em;
     color: #444;
 }
+
 .pie-pagina-content li {
     margin-bottom: 10px;
     line-height: 1.4;
 }
+
+/* Latest con imagen a la izquierda y texto a la derecha */
 .pie-pagina-content .latest li {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .pie-pagina-content .latest img {
     width: 60px;
     height: 60px;
@@ -323,16 +432,18 @@ footer {
     margin-bottom: 6px;
 }
 
-/* Instagram */
+/* Instagram cuadrícula */
 .instagram-section {
     flex: 1;
 }
+
 .instagram-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     margin-top: 10px;
 }
+
 .instagram-grid img {
     width: 180px;
     height: 180px;
